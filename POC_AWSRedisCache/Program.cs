@@ -32,6 +32,7 @@ namespace POC_AWSRedisCache
             Console.ReadLine();
         }
 
+
         public void ReadData()
         {
             for (int i = 1; i < devicesCount; i++)

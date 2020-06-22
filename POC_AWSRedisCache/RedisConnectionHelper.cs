@@ -7,8 +7,8 @@ namespace POC_AWSRedisCache
     {
         static readonly ConfigurationOptions options = new ConfigurationOptions
         {//"redis-13990.c212.ap-south-1-1.ec2.cloud.redislabs.com:13990" 
-            EndPoints = { "smartpo-redis-dev.q0mgbe.ng.0001.usw2.cache.amazonaws.com:6379" },
-            //Password = "ambujRedis123",
+            EndPoints = { "redis-13990.c212.ap-south-1-1.ec2.cloud.redislabs.com:13990" },
+            Password = "ambujRedis123", 
             Ssl = false,
             AbortOnConnectFail = false,
             DefaultDatabase = 0
